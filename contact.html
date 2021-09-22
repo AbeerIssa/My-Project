@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        h1 {
+    color: #000;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input[type=email] {
+    width: 40%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: vertical;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display:flexbox;
+}
+
+.container {
+    float: left;
+    border-radius: 4px;
+    background-color: #8e9092b4;
+    padding: 15px;
+    width: 50%;
+}
+input[type=submit] {
+    background-color:rgb(6, 199, 247);
+    color: black;
+    width: 20;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    float:none;
+}
+
+
+input[type=submit]:hover {
+    background-color:rgb(6, 199, 247);
+}
+
+.container1 {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 4px;
+    padding:0%;
+       
+}
+
+
+    
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Contact Form</h2>
+    <br>
+   <div class="container1">
+       <img src="contact.jpg" height="554" width="600">
+   </div>
+
+
+
+    <div class="container">
+       
+    <h3 style="text-align: center;">Contact Us</h3>
+    
+    <form action="">
+        <div>
+            <label for="fn"><b>Name</b></label></div>
+        <div>
+            <input id="fn" type="text" name="text">
+        </div>
+        
+        <br>
+
+        <div >
+            <label  for="mail"><b>Email</b></label> </div>
+        <div>
+           <input id="mail" type="email" name="mail" >
+        </div>
+
+        <br>
+
+        <div >
+            <label  for="sub1"><b>Subject</b></label> </div>
+           <div>
+           <input id="sub1" type="text" name="sub" >
+        </div>
+
+        <br>
+        
+        <div  >
+            <textarea name="subject"  cols="40" rows="14" placeholder="Message" ></textarea>
+           </div>
+
+           <br>
+        <input type="submit" value="Send Message">
+
+        
+    </form>
+</div>
+
+
+
+    
+
+
+</body>
+</html>
